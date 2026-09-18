@@ -1,0 +1,26 @@
+{
+  "name": "ask-lao-tzu-mcp",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A small, source-aware MCP server for exploring the 81 chapters of the Tao Te Ching.",
+  "type": "module",
+  "bin": {
+    "ask-lao-tzu-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "license": "MIT"
+}

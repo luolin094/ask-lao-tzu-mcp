@@ -1,0 +1,10 @@
+{
+  "name": "ask-lao-tzu",
+  "displayName": "Ask Lao Tzu MCP",
+  "version": "0.1.0",
+  "description": "Source-aware Tao Te Ching chapter lookup, search, reading paths, and reflection prompts.",
+  "transport": "stdio",
+  "entrypoint": "dist/index.js",
+  "tools": ["get_chapter", "search_chapters", "get_reflection", "list_topics"],
+  "homepage": "https://asklaotzu.com/tao"
+}
