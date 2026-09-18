@@ -30,3 +30,5 @@ Point the client at the absolute path to `dist/index.js` and use `node` as the c
 The Chinese received text and James Legge translation are included for reading and research. James Legge's 1891 translation is public domain. See [`docs/SOURCES.md`](docs/SOURCES.md) for provenance and the limits of the dataset. The software is MIT licensed; the text dataset carries its own public-domain attribution.
 
 The companion website is [asklaotzu.com/tao](https://asklaotzu.com/tao). It offers a browsable bilingual reading experience, but the MCP server remains useful offline.
+
+For reproducible data work, pair this server with the companion [Tao Te Ching Open Data](https://github.com/luolin094/tao-te-ching-open-data) repository.
